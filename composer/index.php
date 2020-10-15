@@ -1,6 +1,7 @@
 <?php
 
 require_once 'vendor/autoload.php';
+require_once 'app/Time.php';
 
 use App\Time;
 use Ramsey\Uuid\Provider\Node\RandomNodeProvider;
