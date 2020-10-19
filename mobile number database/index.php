@@ -54,11 +54,13 @@ if ($data->getByNumber($number)) {
     <button class="button" type="submit">Search</button>
     <br>
 
-    <p class="text"><?php if (isset($_POST['search'])) {
+    <p class="text">
+        <?php if (isset($_POST['search'])) {
             if ($_POST['search'] != null) {
                 echo 'Person found: ' . $result;
             }
-        } ?></p>
+        } ?>
+    </p>
 </form>
 </body>
 </html>
